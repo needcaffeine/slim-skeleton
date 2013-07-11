@@ -1,0 +1,42 @@
+{
+    "name": "needcaffeine/slim-skeleton",
+    "description": "This is a quick-start skeleton for applications built with the Slim Framework for PHP.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vic Vijayakumar",
+            "homepage": "http://vicvijayakumar.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/needcaffeine/slim-json-api"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "slim/slim": "2.2.0",
+        "slim/extras": "2.0.3",
+        "twig/twig": "v1.13.1",
+        "doctrine/common": "2.3.0",
+        "doctrine/orm": "2.3.4",
+        "zendframework/zend-authentication": "2.2.*",
+        "zendframework/zend-cache": "2.2.*",
+        "zendframework/zend-serializer": "2.2.*",
+        "zendframework/zend-inputfilter": "2.2.*",
+        "rych/phpass": "2.1.x-dev",
+        "entomb/slim-json-api": "dev-master"
+    },
+    "require-dev": {
+    	"composer/composer": "1.0.*@dev",
+        "doctrine/collections": "1.2.*@dev"
+    },
+    "autoload": {
+        "psr-0": {
+            "Untitled": "src"
+        }
+    }
+}

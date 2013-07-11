@@ -1,0 +1,10 @@
+.DS_Store
+.vagrant
+composer.phar
+composer.lock
+/app/logs/
+/app/templates/cache/
+/build
+/docs
+/tags
+/vendor/
